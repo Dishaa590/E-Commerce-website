@@ -1,0 +1,140 @@
+[
+  {
+    "_id": "65b885f49431751d2f2099fb",
+    "product_name": "Laptop",
+    "product_price": 25000,
+    "product_quantity": 5
+  },
+  {
+    "_id": "65b885f49431751d2f2099fc",
+    "product_name": "Smartphone",
+    "product_price": 8000,
+    "product_quantity": 10
+  },
+  {
+    "_id": "65b885f49431751d2f2099fd",
+    "product_name": "TV",
+    "product_price": 40000,
+    "product_quantity": 8
+  },
+  {
+    "_id": "65b885f49431751d2f2099fe",
+    "product_name": "Tablet",
+    "product_price": 12000,
+    "product_quantity": 15
+  },
+  {
+    "_id": "65b885f49431751d2f2099ff",
+    "product_name": "Headphones",
+    "product_price": 500,
+    "product_quantity": 20
+  },
+  {
+    "_id": "65b885f49431751d2f209a00",
+    "product_name": "Gaming Console",
+    "product_price": 30000,
+    "product_quantity": 3
+  },
+  {
+    "_id": "65b885f49431751d2f209a01",
+    "product_name": "Camera",
+    "product_price": 15000,
+    "product_quantity": 6
+  },
+  {
+    "_id": "65b885f49431751d2f209a02",
+    "product_name": "Fitness Tracker",
+    "product_price": 1000,
+    "product_quantity": 12
+  },
+  {
+    "_id": "65b885f49431751d2f209a03",
+    "product_name": "Coffee Maker",
+    "product_price": 8000,
+    "product_quantity": 7
+  },
+  {
+    "_id": "65b885f49431751d2f209a04",
+    "product_name": "External Hard Drive",
+    "product_price": 6000,
+    "product_quantity": 9
+  },
+  {
+    "_id": "65b885f49431751d2f209a05",
+    "product_name": "Wireless Mouse",
+    "product_price": 800,
+    "product_quantity": 25
+  },
+  {
+    "_id": "65b885f49431751d2f209a06",
+    "product_name": "Smartwatch",
+    "product_price": 15000,
+    "product_quantity": 4
+  },
+  {
+    "_id": "65b885f49431751d2f209a07",
+    "product_name": "Desktop Computer",
+    "product_price": 35000,
+    "product_quantity": 2
+  },
+  {
+    "_id": "65b885f49431751d2f209a08",
+    "product_name": "Printer",
+    "product_price": 2000,
+    "product_quantity": 18
+  },
+  {
+    "_id": "65b885f49431751d2f209a09",
+    "product_name": "Bluetooth Speaker",
+    "product_price": 1200,
+    "product_quantity": 14
+  },
+  {
+    "_id": "65b885f49431751d2f209a0a",
+    "product_name": "E-book Reader",
+    "product_price": 7000,
+    "product_quantity": 11
+  },
+  {
+    "_id": "65b885f49431751d2f209a0b",
+    "product_name": "Air Purifier",
+    "product_price": 18000,
+    "product_quantity": 5
+  },
+  {
+    "_id": "65b885f49431751d2f209a0c",
+    "product_name": "Wireless Keyboard",
+    "product_price": 1200,
+    "product_quantity": 17
+  },
+  {
+    "_id": "65b885f49431751d2f209a0d",
+    "product_name": "Projector",
+    "product_price": 25000,
+    "product_quantity": 8
+  },
+  {
+    "_id": "65b885f49431751d2f209a0e",
+    "product_name": "Office Chair",
+    "product_price": 5000,
+    "product_quantity": 13
+  },
+  {
+    "_id": "65b885f49431751d2f209a0f",
+    "product_name": "Car Vacuum Cleaner",
+    "product_price": 1000,
+    "product_quantity": 20
+  },
+  {
+    "_id": "65b885f49431751d2f209a10",
+    "product_name": "Wireless Earbuds",
+    "product_price": 1500,
+    "product_quantity": 22
+  },
+  {
+    "_id": "65b885f49431751d2f209a11",
+    "product_name": "Stand Mixer",
+    "product_price": 3000,
+    "product_quantity": 15
+  }
+]

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Order Management</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Order Management</h1>
+
+        <!-- Select Order Dropdown -->
+        <label for="selectOrder">Select Order:</label>
+        <select id="selectOrder" class="form-control" onchange="loadOrderDetails(this.value)">
+            <option value="" selected disabled>Select an order</option>
+            {% for order in order %}
+                <option value="{{ order['_id'] }}">{{ order['createdOn'] }}</option>
+            {% endfor %}
+        </select>
+
+        <!-- Order Details Section -->
+        <div id="orderDetails" class="mt-3">
+            <!-- Order Details will be loaded here dynamically -->
+        </div>
+    </div>
+
+    <script>
+        function loadOrderDetails(orderId) {
+            // AJAX request to get order details
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var orderDetails = JSON.parse(xhr.responseText);
+                    displayOrderDetails(orderDetails);
+                }
+            };
+
+            xhr.open("GET", "/get_order_details/" + orderId, true);
+            xhr.send();
+        }
+
+        function displayOrderDetails(orderDetails) {
+            // Display order details in the 'orderDetails' div
+            var detailsHtml = "<h3>Order Details</h3>";
+            detailsHtml += "<p>Address: " + JSON.stringify(orderDetails.address) + "</p>";
+            detailsHtml += "<p>Products:</p><ul>";
+
+            for (var i = 0; i < orderDetails.products.length; i++) {
+                var product = orderDetails.products[i];
+                detailsHtml += "<li>" + product.product_name + " - $" + product.product_price + " (Qty: " + product.quantity + ")</li>";
+            }
+
+            detailsHtml += "</ul><p>Total Price: $" + orderDetails.total_price + "</p>";
+
+            document.getElementById('orderDetails').innerHTML = detailsHtml;
+        }
+    </script>
+</body>
+</html>

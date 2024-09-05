@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #f0f2f5;
+    border: 1px solid #0b0c0d;
+    border-radius: 5px;
+    background-color: #0b0c0d;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.page-link:hover {
+    background-color: #e7eaed;
+    color: rgb(17, 13, 13);
+}
+
+/* Price Filters */
+.price-filters {
+    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.price-filters form {
+    display: flex;
+    align-items: center;
+}
+
+.price-filters label {
+    margin-right: 10px;
+    font-size: medium;
+}
+
+.price-filters input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.price-filters button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price-filters button:hover {
+    background-color: #0056b3;
+}
+
+/* Add to Cart Button */
+a.add-to-cart-link {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+a.add-to-cart-link:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+
+/* Style for the "Add to Cart" button */
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
