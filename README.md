@@ -17,3 +17,5 @@ Cart management and order processing.
 Tech Stack
 Backend: FastAPI, Python 3.10+, MongoDB
 Frontend: HTML, CSS, JavaScript/TypeScript
+
+![image](https://github.com/user-attachments/assets/98d79833-9c2e-4328-8933-092931855352)
